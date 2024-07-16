@@ -1,8 +1,9 @@
 import './App.css';
+import './styles.css';
 import SearchMovies from './SearchMovies';
 import { useState } from 'react';
-import FavouritesList from './FavouritesList'
-import MovieModal from './MovieModal'
+import FavouritesList from './FavouritesList';
+import MovieModal from './MovieModal';
 
 function App() {
   const [favourites, setFavourites] = useState([])
