@@ -7,7 +7,7 @@ function FavouritesList(props){
             {props.favourites.length > 0 ? (
             <ul>
             {props.favourites.map(movie => (
-                    <FavouriteMovie movie={movie} removeFavourite={props.removeFavourite}/>
+                    <FavouriteMovie movie={movie} removeFavourite={props.removeFavourite} showModal={props.showModal} />
                 ))}
             </ul>          
             ) : (
